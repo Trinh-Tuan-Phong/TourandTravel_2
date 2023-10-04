@@ -1,0 +1,291 @@
+.nav-header .navbar-brand {
+    color      : green;
+    font-size  : 17px;
+    font-weight: 500;
+}
+
+.nav-header .container-header {
+    width: 90%;
+}
+
+.offcanvas-body ul {
+    align-items: center;
+}
+
+.offcanvas-body ul li a {
+    text-transform: uppercase;
+    font-weight   : 400;
+    font-size     : 14px;
+
+}
+
+.offcanvas-body .header-option-img .header-img {
+    background     : url("/img/raiden-shogun.jpg") no-repeat;
+    height         : 40px;
+    background-size: 40px;
+    width          : 40px;
+    border-radius  : 50%;
+    margin         : 0 auto;
+    cursor         : pointer;
+}
+
+.header-top-img .bg-image {
+    background-image   : url("/img/mountains-and-rivers.jpg");
+    background-repeat  : no-repeat;
+    height             : 600px;
+    background-size    : cover;
+    background-position: center;
+}
+
+
+.header-top-img .bg-image .header-top-opacity {
+    background-image: linear-gradient(rgb(0 0 0 / 64%), rgb(255 255 255 / 0%));
+    padding-top     : 15px;
+    height          : 65%;
+}
+
+.bg-image .header-top-opacity .header-center-content {
+    position   : absolute;
+    left       : 50%;
+    transform  : translate(-50%, -50%);
+    color      : white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-image .header-top-opacity .header-content-1 {
+    top           : 285px;
+    text-transform: uppercase;
+}
+
+.bg-image .header-top-opacity .header-content-2 {
+    top           : 320px;
+    font-weight   : bold;
+    text-transform: uppercase;
+}
+
+.bg-image .header-top-opacity .header-crossbar {
+    border   : 1px solid white;
+    position : absolute;
+    left     : 50%;
+    top      : 360px;
+    transform: translate(-50%, -50%);
+}
+
+.bg-image .header-top-opacity .header-content-3 {
+    top: 405px;
+
+}
+
+.bg-image .header-top-opacity .header-button {
+    top: 480px;
+}
+
+.bg-image .header-top-opacity .header-button button {
+    text-transform: uppercase;
+    background    : #7de977cf;
+    color         : white;
+    border        : none;
+    border-radius : 10px;
+    font-weight   : bold;
+    cursor        : pointer;
+}
+
+.bg-image .header-top-opacity .header-button button:hover {
+    background: green;
+}
+
+.section .section-top-search h4 {
+    color: #7de977cf;
+}
+
+.section .section-top-search input {
+    border-radius: 15px;
+    border       : 1px solid gray;
+
+}
+
+.section .section-top-search input::placeholder {
+    padding-left: 5%;
+}
+
+.section .section-top-thumbail {
+    margin-top: 50px;
+}
+
+.section .section-top-thumbail h3 {
+    text-transform: uppercase;
+    color         : #7de977cf;
+    font-weight   : bold;
+}
+
+.section .section-top-thumbail .section-top-crossbar {
+    border: 1px solid rgb(199, 199, 199);
+    margin: 0 auto;
+}
+
+.section .section-top-option {
+    margin-top: 40px;
+
+}
+
+.section .section-top-option .section-option {
+    margin: 0 100px;
+}
+
+
+.secton-option-top .option-first h4 {
+    text-transform: uppercase;
+    color         : #7de977cf;
+}
+
+.secton-option-top .option-first span {
+    font-weight: bold;
+}
+
+.secton-option-top .option-first p {
+    color: rgb(182, 177, 177);
+}
+
+
+
+
+
+
+
+/* If the screen size is 501px wide or more, set the font-size of <div> to 19px */
+@media screen and (min-width: 501px) {
+    .header-content-1 {
+        font-size: 19px;
+    }
+}
+
+/* If the screen size is 500px wide or less, set the font-size of <div> to 11px */
+@media screen and (max-width: 500px) {
+    .header-content-1 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .header-content-2 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-content-2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .header-crossbar {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header-crossbar {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .header-crossbar {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .header-content-3 p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-content-3 p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .header-button button {
+        padding  : 10px 25px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-button button {
+        padding  : 7px 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-top-search h4 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .section-top-search input {
+        margin-top: 20px;
+        width     : 500px;
+        height    : 45px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-top-search input {
+        width     : 210px;
+        margin-top: 5px;
+        height    : 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-top-search input::placeholder {
+        margin-bottom: 50px;
+        font-size    : 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-top-thumbail h3 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .section .section-top-crossbar {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section .section-top-crossbar {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .secton-option-top .option-first {
+        padding-left: 100px;
+        padding-top : 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .secton-option-top .option-first {
+        padding-left: 80px;
+        padding-top : 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .secton-option-top .option-first {
+        padding-left: 45px;
+        padding-top : 20px;
+    }
+}
